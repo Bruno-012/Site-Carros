@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mundo Automotivo - Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="https://uniube.br" target="_blank">
+        <img src="imagens/Logo_Uniube.png" alt="Uniube" class="logo-uniube" />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="historia.html">História</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="modelos.html">Modelos</a></li>
+          <li><a href="ferrari.html">Ferrari</a></li>
+          <li><a href="porsche.html">Porsche</a></li>
+          <li><a href="tesla.html">Tesla</a></li>
+          <li><a href="toyota.html">Toyota</a></li>
+          <li><a href="bmw.html">BMW</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Fale Conosco</h2>
+      <p>Dúvidas ou sugestões? Envie uma mensagem para nossa equipe.</p>
+      <form action="#">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" required placeholder="Digite seu nome" />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" required placeholder="seu@email.com" />
+
+        <label for="assunto">Assunto:</label>
+        <select id="assunto">
+          <option value="duvida">Dúvida</option>
+          <option value="sugestao">Sugestão</option>
+          <option value="anuncio">Anunciar no site</option>
+        </select>
+
+        <label for="msg">Mensagem:</label>
+        <textarea
+          id="msg"
+          rows="5"
+          placeholder="Como podemos ajudar?"
+        ></textarea>
+
+        <button type="submit">Enviar Formulário</button>
+      </form>
+    </main>
+    <footer>
+      <p>Desenvolvido por: Bruno de Oliveira | RA: 5167168</p>
+    </footer>
+  </body>
+</html>
